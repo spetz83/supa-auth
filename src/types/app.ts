@@ -25,3 +25,8 @@ export type NextAppPageRedirProps = {
 export type NextAppPageServerSideProps =
   | NextAppPageUserProps
   | NextAppPageRedirProps;
+
+export type LayoutProps = {
+  usePadding?: boolean;
+  useBackdrop?: boolean;
+};
